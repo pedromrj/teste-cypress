@@ -1,0 +1,20 @@
+{
+  "name": "teste-software-cypress",
+  "version": "1.0.0",
+  "description": "disciplina de teste de software da faculdade",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "start": "sucrase-node src/server.js"
+  },
+  "author": "pedro.silva",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^7.3.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "sucrase": "^3.18.1"
+  }
+}
